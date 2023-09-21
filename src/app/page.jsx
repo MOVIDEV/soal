@@ -1,6 +1,6 @@
 //! pecahkan soal dibawah ini
-//! 1 buat komponen memiliki hasil penambahan masing - masing
-//! 2 buat & gunakan HOC
+//! 1. buat komponen memiliki hasil penambahan masing - masing
+//! 2. buat & gunakan HOC
 "use client"
 
 import { useState } from "react";
@@ -20,12 +20,11 @@ export default function Home() {
 <button onClick={handlerNomor}>tambah</button>
       </div>
 <div>
-  <h3>x + 1</h3>
+  <h3>x + 2</h3>
   <p>{nomor}</p>
   <button onClick={handlerNomor}>tambah</button>
 </div>
     </div>
-
     
   )
 }
